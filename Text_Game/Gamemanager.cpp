@@ -13,7 +13,6 @@ Monster* generateMonster(int level) {
 
     return new Monster(names[idx], baseHealth, baseAttack);
 
-
 void Gamemanager::displayInventory(Character* player)
 {
     // 인벤토리 목록
